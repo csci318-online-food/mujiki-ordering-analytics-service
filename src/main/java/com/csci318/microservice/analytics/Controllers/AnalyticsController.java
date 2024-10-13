@@ -13,10 +13,10 @@ import com.csci318.microservice.analytics.Services.AnalyticsService;
 
 @RestController
 @RequestMapping("${api.endpoint.base-url}/analytics")
-public class AnalyticsServiceController {
+public class AnalyticsController {
     private final AnalyticsService analyticsService;
 
-    public AnalyticsServiceController(AnalyticsService analyticsService) {
+    public AnalyticsController(AnalyticsService analyticsService) {
         this.analyticsService = analyticsService;
     }
 
